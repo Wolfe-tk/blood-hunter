@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="0" minor="0" revision="0" build="602" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="AiHint" type="31" value="f5614548-32cc-4e2e-08b1-e53232d51e47" />
+					<attribute id="Archetype" type="22" value="melee_large" />
+					<attribute id="CharacterVisualResourceID" type="22" value="178a168a-6bb6-b4a3-23ea-d4a2262968d0" />
+					<attribute id="DisplayName" type="28" handle="h7a986024g5973g4c08g894bg9b8cdf5c0b67" version="1" />
+					<attribute id="GeneratePortrait" type="23" value="Icon_Gnoll" />
+					<attribute id="Icon" type="22" value="178a168a-6bb6-b4a3-23ea-d4a2262968d0-_(Icon_Gnoll)" />
+					<attribute id="LadderLoopSpeed" type="6" value="5" />
+					<attribute id="LevelName" type="22" value="" />
+					<attribute id="LightID" type="22" value="f27e5300-b93d-4487-8a1e-e942881fbfe1" />
+					<attribute id="MapKey" type="22" value="c5e537ba-9b6f-4231-949c-044b6347defb" />
+					<attribute id="Name" type="23" value="" />
+					<attribute id="ParentTemplateId" type="22" value="67f39af3-b9ea-4e95-8237-7aa4f6bd7cef" />
+					<attribute id="PhysicsTemplate" type="22" value="a644d1d6-4098-fc0a-c26b-b016d7457ebd" />
+					<attribute id="Stats" type="22" value="Werewolf" />
+					<attribute id="Type" type="22" value="character" />
+					<attribute id="VocalAlertResourceID" type="22" value="eb937012-4573-8efd-243a-4c551d7c9ea2" />
+					<attribute id="VocalAngryResourceID" type="22" value="35846c2d-31e7-5a9d-2d9d-15409bfbe4d1" />
+					<attribute id="VocalAnticipationResourceID" type="22" value="183d421a-3ba4-e761-21ad-6e1dde64c129" />
+					<attribute id="VocalAttackResourceID" type="22" value="5bab8cee-1085-3294-ab42-17e2259b9d6d" />
+					<attribute id="VocalBoredResourceID" type="22" value="b5095ecb-00de-3597-86cc-1f0b8bf37f6b" />
+					<attribute id="VocalDeathResourceID" type="22" value="66186c92-84ea-b20a-31a5-e8d95b7337c7" />
+					<attribute id="VocalDodgeResourceID" type="22" value="1f380e3b-eadd-543a-90af-18a6aaa677e7" />
+					<attribute id="VocalExhaustedResourceID" type="22" value="af5854b5-a792-09b1-94f3-cd147cf6916b" />
+					<attribute id="VocalInitiativeResourceID" type="22" value="31fb4652-7a70-973a-753c-6254fad77cf5" />
+					<attribute id="VocalPainResourceID" type="22" value="d035b26f-e6ad-6e66-f295-b791f477d697" />
+					<attribute id="VocalRelaxedResourceID" type="22" value="ad91ab2f-5b2f-64d7-e0cd-bf3b25d8ba3c" />
+					<attribute id="VocalSpawnResourceID" type="22" value="29a2bd81-634a-7972-adf6-3cf381bbd063" />
+					<attribute id="VocalVictoryResourceID" type="22" value="a32486b8-3ac0-7047-63e1-2c1dd7f1d48f" />
+					<attribute id="_OriginalFileVersion_" type="32" value="144115196665791066" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="6" value="1.6" />
+									<attribute id="IsIgnoringScale" type="19" value="False" />
+									<attribute id="Max" type="12" value="0.493393 1.63551 1.88476" />
+									<attribute id="Min" type="12" value="-0.49826 -0.00381052 -1.49049" />
+									<attribute id="Radius" type="6" value="0.4" />
+									<attribute id="Shape" type="1" value="2" />
+									<attribute id="Type" type="1" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="6" value="1.641011" />
+									<attribute id="IsIgnoringScale" type="19" value="False" />
+									<attribute id="Max" type="12" value="0.3906657 1.629684 1.25" />
+									<attribute id="Min" type="12" value="-0.3906657 -0.01132715 -1.25" />
+									<attribute id="Radius" type="6" value="1.704425" />
+									<attribute id="Shape" type="1" value="1" />
+									<attribute id="Type" type="1" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="6" value="1.6" />
+									<attribute id="IsIgnoringScale" type="19" value="False" />
+									<attribute id="Max" type="12" value="0.493393 1.63551 1.88476" />
+									<attribute id="Min" type="12" value="-0.49826 -0.00381052 -1.49049" />
+									<attribute id="Radius" type="6" value="0.8" />
+									<attribute id="Shape" type="1" value="2" />
+									<attribute id="Type" type="1" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MaxDashDistance" type="6" value="3" />
+							<attribute id="MovementAcceleration" type="6" value="10" />
+							<attribute id="MovementSpeedDash" type="6" value="8" />
+							<attribute id="MovementSpeedSprint" type="6" value="8" />
+							<attribute id="MovementStepUpHeight" type="6" value="1" />
+							<attribute id="WorldClimbingBlendspace_DownA" type="22" value="575b6b01-b21a-62ff-7883-433fe47bf23a" />
+							<attribute id="WorldClimbingBlendspace_UpA" type="22" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="22" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="22" value="904bcfbe-4648-1a57-c30d-9255c9a1bde4" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="22" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="22" value="" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="22" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="22" value="" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="3" value="0" />
+									<attribute id="CasualExplorer" type="19" value="True" />
+									<attribute id="Classic" type="19" value="True" />
+									<attribute id="FallbackStartRound" type="4" value="-1" />
+									<attribute id="HonorHardcore" type="19" value="True" />
+									<attribute id="LearningStrategy" type="1" value="0" />
+									<attribute id="MinimumImpact" type="4" value="0" />
+									<attribute id="OnlyCastOnSelf" type="19" value="False" />
+									<attribute id="ScoreModifier" type="6" value="1" />
+									<attribute id="Skill" type="22" value="Target_Multiattack_Werewolf" />
+									<attribute id="SpellCastingAbility" type="1" value="0" />
+									<attribute id="StartRound" type="4" value="0" />
+									<attribute id="TacticianHardcore" type="19" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="4" value="100" />
+											<attribute id="MinimumHealthPercentage" type="4" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="4" value="100" />
+											<attribute id="MinimumHealthPercentage" type="4" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="3" value="0" />
+									<attribute id="CasualExplorer" type="19" value="True" />
+									<attribute id="Classic" type="19" value="True" />
+									<attribute id="FallbackStartRound" type="4" value="-1" />
+									<attribute id="HonorHardcore" type="19" value="True" />
+									<attribute id="LearningStrategy" type="1" value="0" />
+									<attribute id="MinimumImpact" type="4" value="0" />
+									<attribute id="OnlyCastOnSelf" type="19" value="False" />
+									<attribute id="ScoreModifier" type="6" value="1" />
+									<attribute id="Skill" type="22" value="Shout_PackHowl_Wolf_Dire" />
+									<attribute id="SpellCastingAbility" type="1" value="0" />
+									<attribute id="StartRound" type="4" value="0" />
+									<attribute id="TacticianHardcore" type="19" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="4" value="100" />
+											<attribute id="MinimumHealthPercentage" type="4" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="4" value="100" />
+											<attribute id="MinimumHealthPercentage" type="4" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="3" value="0" />
+									<attribute id="CasualExplorer" type="19" value="True" />
+									<attribute id="Classic" type="19" value="True" />
+									<attribute id="FallbackStartRound" type="4" value="-1" />
+									<attribute id="HonorHardcore" type="19" value="True" />
+									<attribute id="LearningStrategy" type="1" value="0" />
+									<attribute id="MinimumImpact" type="4" value="0" />
+									<attribute id="OnlyCastOnSelf" type="19" value="False" />
+									<attribute id="ScoreModifier" type="6" value="1" />
+									<attribute id="Skill" type="22" value="Target_Bite_Wolf_Dire_Wildshape" />
+									<attribute id="SpellCastingAbility" type="1" value="0" />
+									<attribute id="StartRound" type="4" value="0" />
+									<attribute id="TacticianHardcore" type="19" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="4" value="100" />
+											<attribute id="MinimumHealthPercentage" type="4" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="4" value="100" />
+											<attribute id="MinimumHealthPercentage" type="4" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="3" value="0" />
+									<attribute id="CasualExplorer" type="19" value="True" />
+									<attribute id="Classic" type="19" value="True" />
+									<attribute id="FallbackStartRound" type="4" value="-1" />
+									<attribute id="HonorHardcore" type="19" value="True" />
+									<attribute id="LearningStrategy" type="1" value="0" />
+									<attribute id="MinimumImpact" type="4" value="0" />
+									<attribute id="OnlyCastOnSelf" type="19" value="False" />
+									<attribute id="ScoreModifier" type="6" value="1" />
+									<attribute id="Skill" type="22" value="Target_CreateWerewolf" />
+									<attribute id="SpellCastingAbility" type="1" value="0" />
+									<attribute id="StartRound" type="4" value="0" />
+									<attribute id="TacticianHardcore" type="19" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="4" value="100" />
+											<attribute id="MinimumHealthPercentage" type="4" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="4" value="100" />
+											<attribute id="MinimumHealthPercentage" type="4" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="31" value="5f38a755-e386-4a3a-45a1-2cd26b9db7f6" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="31" value="04ae77c4-f708-4ffa-8c8b-3b762a066e2e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

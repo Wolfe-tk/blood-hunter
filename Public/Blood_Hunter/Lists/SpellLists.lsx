@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="5" build="0"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+				<node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Target_BloodCurseOfTheFallenPuppet_Container;Shout_BloodCurseOfExposure_Container;Target_BloodCurseOfTheMarked_Container;Target_BloodCurseOfTheEyeless_Container;Target_BloodCurseOfBinding_Container;Target_BloodCurseOfTheAnxious_Container;Target_BloodCurseOfTheMuddledMind_Container;Target_BloodCurseOfBloatedAgony_Container"/> a list of spell separated by a ;
+                    <attribute id="UUID" type="guid" value="a8f7f76a-7810-459d-bf78-3c5219699ec6"/> make a new UUID. refer to this when selecting or adding spells
+                </node>
+			</children>
+        </node>
+    </region>
+</save>

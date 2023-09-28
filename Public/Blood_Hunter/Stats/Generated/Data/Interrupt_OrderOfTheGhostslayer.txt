@@ -1,0 +1,9 @@
+new entry "Interrupt_BrandOfSundering"
+type "InterruptData"
+using "Interrupt_BrandOfCastigation"
+data "DisplayName" "h478f5fbag2c1ag487bg9081g95c19799048e;1"
+data "Description" "hdcc96c46g0d3cg49b9g9c20g5b2224f70b7a;1"
+data "DescriptionParams" "DealDamage(1d6,Psychic)"
+data "Icon" "Spell_BrandOfCastigation"
+data "Properties" "ApplyStatus(BRAND_OF_SUNDERING, 100, -1);ApplyStatus(SELF,BRAND_OF_SUNDERING_OWNER, 100, -1)"
+                   

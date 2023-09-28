@@ -1,0 +1,103 @@
+function HasRiteWeaponDamage()
+	return HasAnyStatus({'CRIMSON_RITE_FROZEN','CRIMSON_RITE_FLAME','CRIMSON_RITE_STORM','CRIMSON_RITE_DAWN'}, {}, {}, GetAttackWeapon())
+end
+
+function HasRiteUnarmedDamage(entity)
+    local entity = entity or context.Source
+	return HasAnyStatus({'PREDATORY_CRIMSON_RITE_FROZEN','PREDATORY_CRIMSON_RITE_FLAME','PREDATORY_CRIMSON_RITE_STORM'}, {}, {}, entity)
+end
+
+function IsHybridForm()
+    return HasStatus('SHAPECHANGE_HYBRIDFORM')
+end
+
+function CastigationCheck(entity)
+    local entity = entity or context.Target
+    local hasHunterWithinRange = HasCreatureWithAnyStatusInRange({'BRAND_OF_CASTIGATION_OWNER','BRAND_OF_SUNDERING_OWNER'}, 1.5)
+    local isHunter = HasAnyStatus({'BRAND_OF_CASTIGATION_OWNER','BRAND_OF_SUNDERING_OWNER'}, {}, {}, entity)
+
+    return isHunter | hasHunterWithinRange
+end
+
+function AddExtraRiteDie()
+    return 'Cold'
+end
+
+function IsFrozenRite(entity)
+    local entity = entity or context.Source
+    return HasStatus('CRIMSON_RITE_FROZEN',GetAttackWeapon(),entity) | (IsMeleeUnarmedAttack() and HasStatus('PREDATORY_CRIMSON_RITE_FROZEN',context.Source))
+end
+
+function IsFlameRite(entity)
+    local entity = entity or context.Source
+    return HasStatus('CRIMSON_RITE_FLAME',GetAttackWeapon(),entity) | (IsMeleeUnarmedAttack() and HasStatus('PREDATORY_CRIMSON_RITE_FLAME',context.Source))
+end
+
+function IsStormRite(entity)
+    local entity = entity or context.Source
+    return HasStatus('CRIMSON_RITE_STORM',GetAttackWeapon(),entity) | (IsMeleeUnarmedAttack() and HasStatus('PREDATORY_CRIMSON_RITE_STORM',context.Source))
+end
+
+function IsDawnRite(entity)
+    local entity = entity or context.Source
+    return HasStatus('CRIMSON_RITE_DAWN',GetAttackWeapon(),entity)
+end
+
+function IsUndead(target)
+    target = target or context.Target
+
+    return Tagged('UNDEAD', target) | Tagged('UNDEAD_BEAST', target)
+end
+
+function FallenPuppetHelper(entity)
+    entity = entity or context.Target
+    
+    local hasAmmunitionWeapon = WieldingWeapon('Ammunition', false, true, entity)
+    local hasReachWeapon = WieldingWeapon('Reach', false, true, entity)
+    local allyWithin9 = HasAllyWithinRange('SG_Incapacitated',9,nil,nil,context.Source,context.Target)
+    local allyWithin3 = HasAllyWithinRange('SG_Incapacitated',3,nil,nil,context.Source,context.Target)
+    local allyWithin1p5 = HasAllyWithinRange('SG_Incapacitated',1.5,nil,nil,context.Source,context.Target)
+    
+    return (hasAmmunitionWeapon & allyWithin9) | (hasReachWeapon & allyWithin3) | allyWithin1p5
+end
+
+function AmpedFallenPuppetHelper(entity)
+    entity = entity or context.Target
+    
+    local hasAmmunitionWeapon = WieldingWeapon('Ammunition', false, true, entity)
+    local hasReachWeapon = WieldingWeapon('Reach', false, true, entity)
+    local allyWithin13p5 = HasAllyWithinRange('SG_Incapacitated',13.5,nil,nil,context.Source,context.Target)
+    local allyWithin7p5 = HasAllyWithinRange('SG_Incapacitated',7.5,nil,nil,context.Source,context.Target)
+    local allyWithin6 = HasAllyWithinRange('SG_Incapacitated',6,nil,nil,context.Source,context.Target)
+    
+    return (hasAmmunitionWeapon & allyWithin13p5) | (hasReachWeapon & allyWithin7p5) | allyWithin6
+end
+
+function HasCreatureWithAnyStatusInRange(status, distance, target, source)
+    distance = distance or 1.5
+    target = target or context.Target
+    source = source or context.Source
+
+    local allies = GetAlliesWithinRange(distance, target, source)
+    local enemies = GetEnemiesWithinRange(distance, target, source)
+
+    if allies ~= nil then
+        for _, entity in ipairs(allies.Allies) do
+            -- Check if the entity has any of the specified statuses
+            if HasAnyStatus(status, {}, {}, entity).Result then
+                return ConditionResult(true)
+            end
+        end
+    end
+
+    if enemies ~= nil then
+        for _, entity in ipairs(enemies.Enemies) do
+            -- Check if the entity has any of the specified statuses
+            if HasAnyStatus(status, {}, {}, entity).Result then
+                return ConditionResult(true)
+            end
+        end
+    end
+
+    return ConditionResult(false)
+end

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="8" build="613"/>
+    <region id="Rulebook">
+        <node id="root">
+            <children>
+                <node id="Rule">
+                    <attribute id="ApplyVisual" type="bool" value="true"/>
+                    <attribute id="ChangeBodyType" type="bool" value="true"/>
+                    <attribute id="ChangeIcon" type="bool" value="false"/>
+                    <attribute id="ChangeRace" type="bool" value="true"/>
+                    <attribute id="IgnoreCustomLooks" type="bool" value="true"/>
+                    <attribute id="RetainDisplayName" type="bool" value="true"/>
+                    <attribute id="RuleName" type="LSString" value="Werewolf"/>
+                    <attribute id="UUID" type="guid" value="559a2090-f745-40c5-9f32-c04730b13093"/>
+                    <attribute id="UseShapeshiftIdentity" type="bool" value="true"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

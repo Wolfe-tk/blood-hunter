@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="319"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="FightingStyle_Dueling"/>
+                    <attribute id="Level" type="int32" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="e613ebe3-91dd-4559-9556-55d7098755cb"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="RiteOfTheFrozen;RiteOfTheFlame;RiteOfTheStorm"/>
+                    <attribute id="Level" type="int32" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="c4d03754-360d-480e-b99b-f0da267fdc09"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="RiteOfTheFrozen;RiteOfTheFlame;RiteOfTheStorm"/>
+                    <attribute id="Level" type="int32" value="7"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="00537aa5-2cb4-47c2-831c-c54e8e6779c5"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h9357a872g9fb0g42e2g9506g8a1cb60f6512" version="1">Amplify</content> 
+	<content contentuid="h12625dcbg7499g4d44gab4bg25d2bf907bf9" version="1">Take necrotic damage equal to your hemocraft die and gain additional benefits depending on the Blood Curse.&lt;br&gt;&lt;br&gt;Amplifying a Blood Curse allows you to affect creatures which don't have blood.</content>
+
+	<content contentuid="hdd4de22eg5ba1g4f09g9b93g9d97cb5c0698" version="1">Bloodless</content> 
+	<content contentuid="hf0d82974ga9b6g4c23g9357g3269d67865ab" version="1">Bloodless creatures are creatures without blood: Undead, Constructs, Elementals, Plants, and Oozes.</content>
+
+	<content contentuid="hcc921c54g8023g4726gb872g90c87b312a59" version="1">Blood Hunter</content>
+	<content contentuid="hb7e93707g6a86g451cga47bgb492382a3f12" version="1">Clever warriors determined to protect the realms from evils old and new. Blood magic, secretive rites, and self-sacrifice aid them against the monsters they hunt.</content>
+	
+	<content contentuid="h80735428g7d5ag4296g962cg10f28dbaa686" version="1">Order of the Lycan</content>
+	<content contentuid="hd9ffb274g81d4g4980g892dg8cd2c8e4598f" version="1">Become a monster to fight monsters. Members of this order embrace Lycanthropy, taming the beast with Blood magic. However, even the most vigilant can be lost to their hunger.</content>
+	
+	<content contentuid="h4122ac8bg00aeg46d2gb33cgb0b81c505024" version="1">Order of the Ghostslayer</content>
+	<content contentuid="h7c3fb78cg2392g4423gb7a7gaf442ddece67" version="1">Oldest of the Blood Hunter orders, its members have rediscovered the secrets of hemocraft and refined them for combat against the scourge of undeath. Destroy the scourge wherever it is found, tune your abilities to engage undead creatures, and those who manipulate the necromancy that creates them.</content>
+	
+	<content contentuid="ha7824f35g3af8g4042gbecag7224cdb6e066" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No effect on &lt;LSTag Type="Passive" Tooltip="PassiveBloodlessCreature_Tooltip"&gt;Bloodless Creatures&lt;/LSTag&gt; unless &lt;LSTag Type="Passive" Tooltip="PassiveAmplify_Tooltip"&gt;Amplified&lt;/LSTag&gt;.</content>
+	<content contentuid="h5712d89cgd5e5g4d93ga339g596784d14d8e" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No effect on targets immune to the &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; condition</content>
+
+	<content contentuid="hbdea57a3gbde5g45acgbf47g1e65dc57f6ca" version="1">Blood Curse of Binding</content>
+	<content contentuid="h77451170g4979g4d73gb351g645f55401558" version="1">Bind a creature to reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; to 0, and make it unable to use reactions. Amplify by inflicting [1] to yourself.</content>
+	<content contentuid="h761b14e9gca88g4b59gaa83g5227fa2b416c" version="1">Bind a creature to reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; to 0, and make it unable to use reactions.</content>
+	<content contentuid="h54a76c39gc2d8g43f7gb356gb0168544182d" version="1">Blood Curse of Binding (Amplified)</content>
+	<content contentuid="h169921a5g9c35g4b9dg91a0ge88841ce5d81" version="1">Amplify by taking [1]. Bind a creature to reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; to 0, and make it unable to use reactions for one minute. Target repeats saving throws to escape at the end of each of its turns.</content>
+	<content contentuid="h7dd66dd1gd580g4197g96dfgf80ef8254c92" version="1">Creature's &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; is reduced to 0, and is unable to use reactions</content>
+	<content contentuid="hb090c45ag183eg4f0bgbdbfgb83e7557e45c" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; &lt;LSTag Type="Passive" Tooltip="PassiveAmplify_Tooltip"&gt;Amplify&lt;/LSTag&gt;: Increase the duration of the curse to one minute.</content>
+
+	<content contentuid="h155b5891gcbe6g457fgbd5egf4817b6a56b9" version="1">Blood Curse of The Anxious</content>
+	<content contentuid="h11c98d5agd231g400eg8f2fg05d2c0056049" version="1">&lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; (Intimidation) &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; made against the cursed creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Amplify by inflicting [1] to yourself.</content>
+	<content contentuid="h76510600g0d29g4f6agba5bg97736649ede7" version="1">&lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; (Intimidation) &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; made against the cursed creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h036f9f55gec88g4c49g9d61ge4deff4dfb41" version="1">Blood Curse of The Anxious (Amplified)</content>
+	<content contentuid="h72ff4018g71bfg47a8gadd0g25e4234d1ad3" version="1">Amplify by taking [1]. The next &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; saving throw the cursed creature makes has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h04b46b4bge2bag4199g8344g23db92d03dd2" version="1">&lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; (Intimidation) &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; made against cursed creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h15df0feeg566cg42b2ga3dbg102e5d5f1bae" version="1">The next &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; saving throw the cursed creature makes has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hfe061976gf143g4d06g8efeg6159fa926ab0" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; &lt;LSTag Type="Passive" Tooltip="PassiveAmplify_Tooltip"&gt;Amplify&lt;/LSTag&gt;: The next &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; saving throw the cursed creature makes has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h9398dd08g1028g4e77g8d95ge230b3ac62b5" version="1">Blood Curse of The Muddled Mind</content>
+	<content contentuid="hbcd20531gf9dag4868ga4afg96808361e486" version="1">Curse a creature that is &lt;LSTag Tooltip="Concentration"&gt;concentrating&lt;/LSTag&gt;. That creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; it makes to maintain &lt;LSTag Tooltip="Concentration"&gt;concentration&lt;/LSTag&gt;. Amplify by inflicting [1] to yourself.</content>
+	<content contentuid="h81ca5fb6gb30fg4520g809bg8d780370a485" version="1">Curse a creature that is &lt;LSTag Tooltip="Concentration"&gt;concentrating&lt;/LSTag&gt;. That creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; it makes to maintain &lt;LSTag Tooltip="Concentration"&gt;concentration&lt;/LSTag&gt;.</content>
+	<content contentuid="h81b0253ag3420g4199gac82g16a8895d8c55" version="1">Blood Curse of The Muddled Mind (Amplified)</content>
+	<content contentuid="hdd3749edg39c8g4570gb788gf3de752fc0ed" version="1">Amplify by taking [1]. Curse a creature that is &lt;LSTag Tooltip="Concentration"&gt;concentrating&lt;/LSTag&gt;. That creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; it makes to maintain &lt;LSTag Tooltip="Concentration"&gt;concentration&lt;/LSTag&gt;. In addition, force the target to make an immediate &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failure, immediately end its &lt;LSTag Tooltip="Concentration"&gt;concentration&lt;/LSTag&gt;.</content>
+	<content contentuid="he68c5174gedd1g45f0g9020g055615935380" version="1">Creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; it makes to maintain &lt;LSTag Tooltip="Concentration"&gt;concentration&lt;/LSTag&gt;</content>
+	<content contentuid="hce27cb78g614fg4d1agbbadg3a660992a410" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; &lt;LSTag Type="Passive" Tooltip="PassiveAmplify_Tooltip"&gt;Amplify&lt;/LSTag&gt;: In addition, force the target to make an immediate &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; against your Spellcasting DC.</content>
+	
+	<content contentuid="hb34be8fag72bdg446fgbbf2g611a0c5ff361" version="1">Blood Curse of Bloated Agony</content>
+	<content contentuid="hf97201c3gc7f2g410bgb94cgdb0d74b8eb3a" version="1">Curse a creature, causing its body to swell. The creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; and &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; checks, and takes [2] damage for each attack it makes during its turn. Amplify by inflicting [1] to yourself.</content>
+	<content contentuid="h40483816g8be6g4cc8g9661g9949fbc8b589" version="1">Curse a creature, causing its body to swell. The creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; and &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; checks, and takes [2] damage for each attack it makes during its turn.</content>
+	<content contentuid="h947b2348g0701g4120gbddfg5cc51d706c0e" version="1">Blood Curse of Bloated Agony (Amplified)</content>
+	<content contentuid="h38485cdcgd0bfg4281gb4f9g788e67fa51ce" version="1">Amplify by taking [1]. Curse a creature, causing its body to swell for one minute. The creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; and &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; checks, and takes [2] damage for each attack it makes during its turn. Target repeats saving throw to escape at the end of each of its turns.</content>
+	<content contentuid="h5a303914g1e98g4cb8g9c94g55ef04ea267e" version="1">Creature's body is cursed to swell. The creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; and &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; checks, and takes [2] damage for each attack it makes during its turn.</content>
+	<content contentuid="h22cecf94gf077g46dfgb069g0e75e243a2b1" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; &lt;LSTag Type="Passive" Tooltip="PassiveAmplify_Tooltip"&gt;Amplify&lt;/LSTag&gt;: Increase the duration of the curse to one minute.</content>
+	
+	<content contentuid="h32e5619bg2d14g4237gabc3g86f8735879f5" version="1">Blood Curse of The Marked</content>
+	<content contentuid="h398c589bg2034g4031g9405g15122c4c63a6" version="1">Mark a creature. It takes an additional hemocraft die of damage from your Crimson Rite. Amplify by inflicting [1] to yourself.</content>
+	<content contentuid="h36e77220gefb9g487fgb64agd6ac81c092de" version="1">Mark a creature. It takes an additional hemocraft die of damage from your Crimson Rite.</content>
+	<content contentuid="h39ebe14cg6e88g47beg9b6cgac4df4c2dff5" version="1">Blood Curse of The Marked (Amplified)</content>
+	<content contentuid="hc9ec2cb4ge230g4544gbde9ge597f731b766" version="1">Amplify by taking [1]. Mark a creature. It takes an additional hemocraft die of damage from your Crimson Rite. In addition, the next attack roll you make against the target before the end of your turn has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h38014f0cgdbefg4cb3gad99g32169b1a7cc5" version="1">Marked creature takes extra crimson rite damage.</content>
+	<content contentuid="h4c930125g0949g431ag9f56g322219ea6171" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; &lt;LSTag Type="Passive" Tooltip="PassiveAmplify_Tooltip"&gt;Amplify&lt;/LSTag&gt;: In addition, the next attack roll you make against the target before the end of your turn has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h9e185221ga609g405fg87dbgee49639ec574" version="1">Blood Curse of The Eyeless</content>
+	<content contentuid="h782ec0e3g8440g480cg9649gedcf9247130c" version="1">As a reaction, Subtract [2] from the creature’s attack roll. Amplify by inflicting [1] to yourself.</content>
+	<content contentuid="h6f6ef80dg9b15g4a5ega6c0gb45d6fa166ec" version="1">As a reaction, Subtract [2] from the creature’s attack roll.</content>
+	<content contentuid="h1dbd6c90g9ae3g497bg8f7ag872b0063d6a7" version="1">Blood Curse of The Eyeless (Amplified)</content>
+	<content contentuid="h6978cf49g48cfg4b56g9561gb45a9ed5ab3d" version="1">Amplify by taking [1]. As a reaction,, Subtract [2] from the all the attack rolls the creature makes this turn.</content>
+	<content contentuid="h8212e26dg93c2g41ebg8d9cga9f6a53424a2" version="1">Creature rolls [2] and subtracts the number rolled from their attack rolls.</content>
+	<content contentuid="h91a173c1g87d6g4a1dg8eaag104fe57a0923" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; &lt;LSTag Type="Passive" Tooltip="PassiveAmplify_Tooltip"&gt;Amplify&lt;/LSTag&gt;: Subtract [2] from the all the attack rolls the creature makes this turn.</content>
+	
+	<content contentuid="h68255628gf4c9g4a36g8441gc671f7d04179" version="1">Blood Curse of The Fallen Puppet</content>
+	<content contentuid="h07b0fff5g402bg4330gbdd3gc103503900d9" version="1">As a reaction, instill a creature with a final act of aggression when they are defeated. The creature will resurrect as an ally, and make one weapon attack against the nearest enemy creature within its range, before succumbing to its fate. Amplify by inflicting [1] to yourself.</content>
+	<content contentuid="h93ff02eag5642g4453gbf3egda8726987a68" version="1">As a reaction, instill a creature with a final act of aggression when they are defeated. The creature will resurrect as an ally, and make one weapon attack against the nearest enemy creature within its range, before succumbing to its fate.</content>
+	<content contentuid="h97470283gf4cag4693gaa06gb68ca693aa08" version="1">Blood Curse of The Fallen Puppet (Amplified)</content>
+	<content contentuid="h59886915gabf0g410bg8ecfg41a08a2eba6f" version="1">Amplify by taking [1]. As a reaction, instill a creature with a final act of aggression when they are defeated. The creature will resurrect as an ally, and make one weapon attack against the nearest enemy creature within its range, before succumbing to its fate. Additionally, the creature can move up to half its speed, and is granted a bonus to its attack roll equal to your Hemocraft modifier.</content>
+	<content contentuid="hbcc5aa20ge298g4001gb19dg8be8d720eaa0" version="1">The creature will make one weapon attack against the nearest enemy creature within its range</content>
+	<content contentuid="h237e3b1cg5772g4c33gad16g839a78b8af62" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; &lt;LSTag Type="Passive" Tooltip="PassiveAmplify_Tooltip"&gt;Amplify&lt;/LSTag&gt;: Additionally, the creature can move up to half its speed, and is granted a bonus to its attack roll equal to your Hemocraft modifier.</content>
+
+	<content contentuid="hfdfbde6bga047g4739g8f3aga155a87614c2" version="1">Blood Curse of Exposure</content>
+	<content contentuid="h7a1756cbga2deg4ea4gb6c6gb3c8fc128a5d" version="1">Alter your blood with supernatural enhancements. Ignore all enemy damage resistances. Amplify by inflicting [1] to yourself.</content>
+	<content contentuid="hb8858d0eg8018g4b03ga0b2gd1d7e8ac3173" version="1">Alter your blood with supernatural enhancements. Ignore all enemy damage resistances.</content>
+	<content contentuid="hc58b95ceg1d2ag4fd6g8d62g65a14c696db8" version="1">Blood Curse of Exposure (Amplified)</content>
+	<content contentuid="he9e4ff52gfeabg4938ga456g02c5f50c4f28" version="1">Amplify by taking [1]. Alter your blood with supernatural enhancements. Ignore all enemy damage resistances as well as immunities.</content>
+	<content contentuid="h8b577985g5ddag4c91g8f3cgedf060926b54" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; &lt;LSTag Type="Passive" Tooltip="PassiveAmplify_Tooltip"&gt;Amplify&lt;/LSTag&gt;: Ignore &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; instead.</content>
+
+	<content contentuid="h8c2bf8a8g0239g47e2gb5a0g7e9151c057cd" version="1">Blood Maledict</content>
+	<content contentuid="h4b1e24a3g951ag4568g8fd7g91d2885c3c95" version="1">Blood Maledicts are expended to empower Blood Curses, improving proficiency in combat. You regain expended Blood Maledicts after a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h521e6483g7ad0g455eg90fdg80b986f765b3" version="1">Blood Maledict Charge Unlock</content>
+	<content contentuid="h424cebefgac11g401fga1e8g56c2e07333f4" version="1">You gain one &lt;LSTag Type="Passive" Tooltip="PassiveBloodMaledict_Tooltip"&gt;Blood Maledict&lt;/LSTag&gt; charge.</content>
+	
+	<content contentuid="hb7cbed4dge887g49d0gb83dg5e41f49e3268" version="1">Hybrid Transformation</content>
+	<content contentuid="h43758cc1g5ca3g43f8g8664g54017f6dc26d" version="1">You can transform into your Hybrid form as many times as you have charges per &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="h12054452g19c8g4998ga0f6g0dbae4ff18b6" version="1">Hunter's Bane</content>
+	<content contentuid="h939dd45cgd5dag496fg8c50g8f900363c2b8" version="1">You have survived a dangerous, long-guarded ritual that alters your life’s blood. You have advantage on &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; (Survival) &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="hd7c9fb6bg0125g48c3gbd0dgaa77a50dfb30" version="1">Rite of the Frozen</content>
+    <content contentuid="h5b967f43g0ed4g4058g9dddg066c3fe927dd" version="1">Rite of the Flame</content>
+    <content contentuid="h49421e9bga121g44b2ga0edge77d05b2e4bd" version="1">Rite of the Storm</content>
+    <content contentuid="hb8b088c4g3024g48b1gadd1g4a4a7d055db3" version="1">Rite of the Dawn</content>
+	<content contentuid="h20837292g21fdg4394gae6ag7e0a5989470c" version="1">As a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;, imbue a weapon to deal extra damage equal to one roll of your Hemocraft die for your chosen damage type. On activating the rite, you take one roll of your Hemocraft die in necrotic damage. Rite damage is magical and lasts until you complete a long rest.</content>
+	<content contentuid="h8f8fb86egdaccg4458g9e15g23fd69acac95" version="1">As a bonus action, imbue a weapon to deal an additional [1]. On activating the rite, you take [2]. Rite damage is magical and lasts until you dismiss it, or complete a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hf75f67e1gbcf0g4a46ga625g3975c9ca6f9c" version="1">As a bonus action, imbue a weapon to deal an additional [1]. On activating the rite, you take [2]. Rite damage is magical and lasts until you dismiss it, or complete a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;. You gain resistance to necrotic damage. Your weapon radiates light in a 9m radius. Undead creatures hit with this rite take double rite dice damage.</content>
+    
+	<content contentuid="hbc62363bgce8eg4108g81bbge5a9a4be1980" version="1">Dismiss Rite</content>
+    <content contentuid="h53f60852gb4c5g4fb5gbad0g6c31535bbb00" version="1">Dismiss your currently active Crimson Rite</content>
+	
+	<content contentuid="h24b062cfg9c1ag4140g920eg5ad4d11a2f91" version="1">Hemocraft Price</content>
+	<content contentuid="h758e00e9ge438g4546gb6a1g6bdc7a85d592" version="1">Your hemocraft comes at a price, take [1].</content>
+	
+	<content contentuid="hf0a2902cg9a00g4258gb7ccge6c31df510ee" version="1">Brand of Castigation</content>
+	<content contentuid="h5eecf132g38c4g4b3fgaafdgfea4fd8643b6" version="1">Channel hemocraft magic to sear an arcane brand into that creature you damage with a Crimson Rite. Each time the branded creature deals damage to you or a creature you can see within 5 feet of you, the branded creature takes [1]. The brand lasts until you complete a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="h5e7b9ee1g4bb1g441egaf6agdc604f2e2db1" version="1">Branded creature creature takes [1] damage each time they attack the Blood Hunter that branded them, or anyone within 5ft of the Hunter.</content>
+	
+	<content contentuid="h8dfc8537g85acg46a8g85fbg6b013a496f59" version="1">Grim Psychometry</content>
+	<content contentuid="h270d7925gcff6g45e6g973cg2e5a4256c0e1" version="1">You gain a supernatural talent for discerning the secrets surrounding mysterious relics or places touched by evil. Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; (History) &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;</content>
+	
+	<content contentuid="h675f93a0g35aeg4412g8cfagc50553345b08" version="1">Dark Augmentation</content>
+	<content contentuid="h9a582e92gac46g4ac4gaa72gc6af2933b0b5" version="1">Your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increases by 2 meters, and you have a bonus to &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;, &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, and &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; equal to your Hemocraft modifier (minimum of +1).</content>
+	
+	<content contentuid="h0dbb02bbgcf53g422bg86d2g6d67958cd1d7" version="1">Curse Specialist</content>
+	<content contentuid="h9eaeaa00gc9b7g4d55g8562g4739cd05f6eb" version="1">You gain an additional use of your &lt;LSTag Type="Passive" Tooltip="PassiveBloodMaledict_Tooltip"&gt;Blood Maledict&lt;/LSTag&gt; feature. In addition, your blood curses can target any creature, whether it has blood or not.</content>
+	
+	<content contentuid="ha71c1c40g4885g43d1ga015gb8957bc04cc8" version="1">Aether Walk</content>
+	<content contentuid="hd9891a53g4658g4960g808bg2f4ce41efb4b" version="1">For a number of rounds equal to your spellcasting modifier ([1]), magically step into the veil between planes. Your appearance becomes misty, and you can pass through creatures and walls using Aether Step.</content>
+	<content contentuid="hd43f5fdfgf9b7g4a70ga321g2e6d4cc6a027" version="1">Character has stepped into the veil between planes and can pass through creatures and walls.</content>
+	
+	<content contentuid="hb1bcc73cg234cg40f8g9a99gf18b2dd0c96a" version="1">Aether Step</content>
+	<content contentuid="h9ef6c730gd8deg4758gade4g03f10d337826" version="1">Walk between the veil and pass through creatures and walls.</content>
+	
+	<content contentuid="h478f5fbag2c1ag487bg9081g95c19799048e" version="1">Brand of Sundering</content>
+	<content contentuid="hdcc96c46g0d3cg49b9g9c20g5b2224f70b7a" version="1">Channel hemocraft magic to sear an arcane brand into that creature you damage with a Crimson Rite. Each time the branded creature deals damage to you or a creature you can see within 5 feet of you, the branded creature takes [1]. The brand lasts until you complete a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;. In addition, whenever you damage a creature with a Crimson Rite, roll an additional Hemocraft Die. Branded creatures cannot become invisible.</content>
+	<content contentuid="h252221afgbea5g4f7bga468g95b4ec5c727a" version="1">Branded creature creature takes [1] damage each time they attack the Blood Hunter that branded them, or anyone within 5ft of the Hunter. In addition, creature takes extra damage from Crimson Rites and cannot become invisible.</content>
+	
+	<content contentuid="h4aa54948g8119g4470g9ef2gd5f8711a0a9b" version="1">Heightened Senses</content>
+	<content contentuid="hd816a164g427cg4104g8195g4328979e0fcf" version="1">You gain the improved senses of a natural predator. You have advantage on &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; (Perception) checks.</content>
+
+	<content contentuid="h7d2dd742g7074g4380g9474g2ae81a96340d" version="1">Hybrid Form</content>
+	<content contentuid="hedc155c6g430ag45c8g9565gb93a95b7fa1b" version="1">Transform into a special hybrid form until you dismiss the form as a bonus action, one hour passes, or you finish a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; and gain the following features and drawbacks:&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Passive" Tooltip="FeralMight"&gt;Feral Might&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Passive" Tooltip="ResilientHide"&gt;Resilient Hide&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Passive" Tooltip="PredatoryStrikes"&gt;Predatory Strikes&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Passive" Tooltip="HybridBloodlust"&gt;Bloodlust&lt;/LSTag&gt;</content>
+	
+	<content contentuid="h447e6fdcgc373g408ega12bgd5e84fa3b7aa" version="1">Dismiss Hybrid Form</content>
+	<content contentuid="hd3acf50bgd85ag4c86gadf4g2b275013ccea" version="1">Revert to your original form.</content>
+	
+	<content contentuid="h54eb5207gea11g4687g85a2ge8a3430cb262" version="1">Hybrid: Feral Might</content>
+	<content contentuid="h63a6c581g3af8g40c2g81d6g0699ab321963" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; checks and &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; saving throws. Additionally give a +[1] bonus to melee damage rolls.</content>
+	
+	<content contentuid="h7d01216agaea7g4344gacb2ga8842616cd88" version="1">Hybrid: Improved Feral Might</content>
+	<content contentuid="h7077c397g315cg42d0g9a20gba485a26ec81" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; checks and &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; saving throws. Additionally give a +[2] bonus to melee damage rolls.</content>
+	
+	<content contentuid="hed0e0cb2gfc2eg4173gb2a2g03681f321ec4" version="1">Hybrid: Feral Might Upgrade</content>
+	<content contentuid="hbfeda81eg705bg4b84ga451gabc379b5ec70" version="1">Your unarmed strikes now have a +[1] bonus to melee damage rolls.</content>
+	
+	<content contentuid="h87c63421g7c01g4efdgb386g51a63a4a6dd1" version="1">Hybrid: Resilient Hide</content>
+	<content contentuid="h238cfe02g2eddg4da8g9f90gb534603b05bf" version="1">You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to bludgeoning, piercing, and slashing damage from nonmagical attacks. Additionally, while you are not wearing heavy armor, you have a +1 bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armor Class&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="h4f803066gdf41g4d1cg9c73gf0eb004594bf" version="1">Hybrid: Predatory Strikes</content>
+	<content contentuid="h92ec5783g3eaag41d7g942fgbb73467563ea" version="1">You can apply your Crimson Rite feature to your unarmed strikes, which you treat as one weapon. You can use &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; instead of &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; for the attack and damage rolls of your unarmed strikes, which deal [1]. Additionally, when you use the Attack action to make an unarmed strike, you can make one additional unarmed strike as a bonus action.</content>
+	
+	<content contentuid="hdd9d416fgebc8g44c3g8b02gea130c7cbd8d" version="1">Hybrid: Predatory Strikes Upgrade</content>
+	<content contentuid="h0dea4a86g95d1g4b0cg984bg9f68db220d3c" version="1">While in Hybrid form, your unarmed strikes now deal [1] slashing damage. Additionally, your predatory strikes are considered magical if you have a Predatory Crimson Rite active.</content>
+	
+	<content contentuid="h1b48e9e6g2b76g4e2bgbb59g70a73006c7aa" version="1">Hybrid: Bloodlust</content>
+	<content contentuid="h58cd43acg0621g4252g9e3cg9c437dbf7c36" version="1">If you start your turn with fewer hit points than half your hit point maximum, you must succeed on a DC 8 Wisdom saving throw or move directly toward the nearest creature and use the Attack action against that creature. Once your attack is resolved, you regain control of yourself.</content>
+	
+	<content contentuid="h28467b96g4615g4a18gb1e7g3f7b4c3165ab" version="1">Bloodlust</content>
+	<content contentuid="hc780f4b0g70b5g4b5cg8552g892b0e4686c5" version="1">Creature is temporarily blinded by their bestial hunger and will attack the nearest creature.</content>
+
+	<content contentuid="hf0a89f68g4707g4092ga87agd1480b1b3806" version="1">Hybrid: Stalker's Prowess</content>
+	<content contentuid="hc9fe1d6bgbc91g4fbdg9089g90edb36a03ef" version="1">Your speed increases by 15 feet, and your jumping distance is doubled.</content>
+	
+	<content contentuid="hf1924eeeg6665g450cg8599g2c946d11c303" version="1">Hybrid: Advanced Transformation</content>
+	<content contentuid="h25d44283gcb24g4443g94ccg9c238f0e10ab" version="1">You can use your Hybrid Transformation feature twice, regaining all expended uses when you finish a short or long rest.</content>
+	
+	<content contentuid="h3b0f2495g6ad5g40e6g9132gc82493b63b8d" version="1">Hybrid: Lycan Regeneration</content>
+	<content contentuid="h72c2c6e6g1d66g4a83ga36cg3287a6db606f" version="1">At the start of each of your turns, when you have at least 1 hit point but fewer hit points than half your hit point maximum, you gain hit points equal to 1 + your Constitution modifier ([1]). If you are in hybrid form, you gain these hit points before you must make the saving throw for your bloodlust.</content>
+
+	<content contentuid="h366db776g24b3g4dd2g9ab1g83845243697f" version="1">Lycan Regeneration</content>
+	<content contentuid="hd65bca64g8befg4d38g92a5ge6ca8d4f7a9c" version="1">Your lycan form grants you supernatural regeneration.</content>
+		
+	<content contentuid="h90902ecfg5c66g4ff5g9401gd20bf7580d2d" version="1">Predatory Strikes Bonus Attack</content>
+	<content contentuid="hb4eed792gf30dg436dg8858g1143295c60b7" version="1">Make an additional predatory strike.</content>
+	<content contentuid="h21a9c8dage074g4e59ga849g144752ab299c" version="1">Predatory Strikes: Rite of the Frozen</content>
+	<content contentuid="hd25930ecg13f8g49edgbc6ag9a0043f2389c" version="1">Predatory Strikes: Rite of the Flame</content>
+	<content contentuid="h9a2ce914g6c57g4e35g93a5g43a5979ef2c1" version="1">Predatory Strikes: Rite of the Storm</content>
+	<content contentuid="hf69990cfg1955g40fcgb090g4af67a2ccd71" version="1">As a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;, imbue your unarmed strikes to deal extra damage equal to one roll of your Hemocraft die for your chosen damage type. On activating the rite, you take one roll of your Hemocraft die in necrotic damage. Rite damage is magical and lasts until you dismiss it, or complete a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>	
+	
+	<content contentuid="he0427ed4g3b5cg4422ga8aage9ac3514fd3c" version="1">Blood Curses</content>
+	<content contentuid="h7560884dg89aag49adga1a9gf12b1d6fbc23" version="1">Channel a part of your vital essence to curse and manipulate creatures through hemocraft magic. By paying a price of your own vitality, you can choose to amplify the curse for additional boons. Creatures that do not have blood are immune to blood curses unless you have amplified the curse.</content>
+    
+	<content contentuid="ha32c11b1gd0b3g4871g831eg8ea56af3a06a" version="1">Crimson Rites</content>
+	<content contentuid="h0843ad1fgb2c2g4be0g90aag93bfe2a5ac9a" version="1">Sacrifice your vitality to invoke a rite of hemocraft that infuses your weapon strikes with elemental energy. Attacks you make with a rite infused weapon are magical, and deal extra damage equal to your hemocraft die of the type determined by the chosen rite. A weapon can hold only one active rite at a time, and other creatures can’t gain the benefit of your rite.</content>
+
+	<content contentuid="h67ad4b8age9b6g47eag8a1eg68f697d9f0ee" version="1">Blood Hunter Longsword</content>
+	<content contentuid="h9a415ae3gd490g4b62g835bga0e02ae75d95" version="1">A sword typically associated with Blood Hunters, longer than a Rapier but lighter than a Longsword.</content>
+
+	<content contentuid="hb9053190g76c2g45d8g8c84gd0694fc609de" version="1">Blood Hunter Studded Leather</content>
+	<content contentuid="h856005c5g5fd2g45eeg88begce58eacccd9b" version="1">Armor easily identifiable as belonging to a Blood Hunter. Light, efficient, and styled to work best in the night.</content>
+</contentList>

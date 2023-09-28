@@ -1,0 +1,5 @@
+new entry "ARM_BloodHunter"
+type "Armor"
+using "ARM_StuddedLeather_Body"
+data "RootTemplate" "f416c5d1-f2b7-4822-b003-54c24bdd1f40"
+data "ValueUUID" "240eb257-ef20-4877-89bd-6956b4b7c41a"

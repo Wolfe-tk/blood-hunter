@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="326"/>
+    <region id="TooltipExtraTexts">
+        <node id="root">
+            <children>
+                <node id="TooltipExtraTexts"> <!-- Tooltip warning Bloodless -->
+                    <attribute id="Text" type="TranslatedString" handle="ha7824f35g3af8g4042gbecag7224cdb6e066" version="1"/>
+                    <attribute id="UUID" type="guid" value="cf1c5a61-69e2-43a3-b8ab-602244c8137c"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- Tooltip warning Eyeless -->
+                    <attribute id="Text" type="TranslatedString" handle="h5712d89cgd5e5g4d93ga339g596784d14d8e" version="1"/>
+                    <attribute id="UUID" type="guid" value="35fdf246-4086-4d84-ba16-d6a6c96d59e9"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- Exposure Amplify -->
+                    <attribute id="Text" type="TranslatedString" handle="h8b577985g5ddag4c91g8f3cgedf060926b54" version="1"/>
+                    <attribute id="UUID" type="guid" value="e5d0f216-49c6-4fb4-8e16-d2cf4209963a"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- Eyeless Amplify -->
+                    <attribute id="Text" type="TranslatedString" handle="h91a173c1g87d6g4a1dg8eaag104fe57a0923" version="1"/>
+                    <attribute id="UUID" type="guid" value="e8897514-32f4-4ba4-b4be-ba6ce1423ad3"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- Marked Amplify -->
+                    <attribute id="Text" type="TranslatedString" handle="h4c930125g0949g431ag9f56g322219ea6171" version="1"/>
+                    <attribute id="UUID" type="guid" value="80cfd0a9-e7c9-47ef-af49-6cb306fefd33"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- BloatedAgony Amplify -->
+                    <attribute id="Text" type="TranslatedString" handle="h22cecf94gf077g46dfgb069g0e75e243a2b1" version="1"/>
+                    <attribute id="UUID" type="guid" value="e6df306e-3a31-4532-9c84-ebe19aaa0c10"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- MuddledMind Amplify -->
+                    <attribute id="Text" type="TranslatedString" handle="hce27cb78g614fg4d1agbbadg3a660992a410" version="1"/>
+                    <attribute id="UUID" type="guid" value="4f9d2b27-f1c7-4ec9-99ba-9b4d19dc520b"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- Anxious Amplify -->
+                    <attribute id="Text" type="TranslatedString" handle="hfe061976gf143g4d06g8efeg6159fa926ab0" version="1"/>
+                    <attribute id="UUID" type="guid" value="0113ba46-6592-4919-8d25-400a1f611678"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- Binding Amplify -->
+                    <attribute id="Text" type="TranslatedString" handle="hb090c45ag183eg4f0bgbdbfgb83e7557e45c" version="1"/>
+                    <attribute id="UUID" type="guid" value="e6600c89-dc1d-4465-9b16-38d3f281e7b5"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- Fallen Puppet Amplify -->
+                    <attribute id="Text" type="TranslatedString" handle="h237e3b1cg5772g4c33gad16g839a78b8af62" version="1"/>
+                    <attribute id="UUID" type="guid" value="37238a0d-186a-401e-ace6-b8168e3bd751"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

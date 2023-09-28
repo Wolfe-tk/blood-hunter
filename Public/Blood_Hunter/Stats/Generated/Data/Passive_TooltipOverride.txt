@@ -1,0 +1,14 @@
+new entry "PassiveAmplify_Tooltip"
+type "PassiveData"
+data "DisplayName" "h9357a872g9fb0g42e2g9506g8a1cb60f6512"
+data "Description" "h12625dcbg7499g4d44gab4bg25d2bf907bf9"
+
+new entry "PassiveBloodMaledict_Tooltip"
+type "PassiveData"
+data "DisplayName" "h8c2bf8a8g0239g47e2gb5a0g7e9151c057cd"
+data "Description" "h4b1e24a3g951ag4568g8fd7g91d2885c3c95"
+
+new entry "PassiveBloodlessCreature_Tooltip"
+type "PassiveData"
+data "DisplayName" "hdd4de22eg5ba1g4f09g9b93g9d97cb5c0698"
+data "Description" "hf0d82974ga9b6g4c23g9357g3269d67865ab"

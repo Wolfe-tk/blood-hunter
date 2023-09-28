@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="320"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_BloodCurseOfBinding_Container;Target_BloodCurseOfTheMuddledMind_Container;Target_BloodCurseOfTheEyeless_Container;Target_BloodCurseOfTheFallenPuppet_Container;Shout_BloodCurseOfExposure_Container;Target_BloodCurseOfTheMarked_Container;Target_BloodCurseOfTheAnxious_Container;Target_BloodCurseOfBloatedAgony_Container"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="e6868b21-bc81-4ff4-a37c-e2ff55b84ca6"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_BloodCurseOfBinding_Container;Target_BloodCurseOfTheMuddledMind_Container;Target_BloodCurseOfTheEyeless_Container;Target_BloodCurseOfTheFallenPuppet_Container;Shout_BloodCurseOfExposure_Container;Target_BloodCurseOfTheMarked_Container;Target_BloodCurseOfTheAnxious_Container;Target_BloodCurseOfBloatedAgony_Container"/>
+                    <attribute id="Level" type="int32" value="6"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="7bb67636-c877-4518-842a-c65babce68d5"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_BloodCurseOfBinding_Container;Target_BloodCurseOfTheMuddledMind_Container;Target_BloodCurseOfTheEyeless_Container;Target_BloodCurseOfTheFallenPuppet_Container;Shout_BloodCurseOfExposure_Container;Target_BloodCurseOfTheMarked_Container;Target_BloodCurseOfTheAnxious_Container;Target_BloodCurseOfBloatedAgony_Container"/>
+                    <attribute id="Level" type="int32" value="10"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="4671bf2d-c2ef-40e7-8846-9cd24adf5dd9"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
