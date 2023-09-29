@@ -1,10 +1,10 @@
-function HasRiteWeaponDamage()
-	return HasAnyStatus({'CRIMSON_RITE_FROZEN','CRIMSON_RITE_FLAME','CRIMSON_RITE_STORM','CRIMSON_RITE_DAWN'}, {}, {}, GetAttackWeapon())
-end
-
-function HasRiteUnarmedDamage(entity)
+function HasRiteDamage()
     local entity = entity or context.Source
-	return HasAnyStatus({'PREDATORY_CRIMSON_RITE_FROZEN','PREDATORY_CRIMSON_RITE_FLAME','PREDATORY_CRIMSON_RITE_STORM'}, {}, {}, entity)
+	local isUnarmed = IsMeleeUnarmedAttack()
+    local unarmedRite = HasAnyStatus({'PREDATORY_CRIMSON_RITE_FROZEN','PREDATORY_CRIMSON_RITE_FLAME','PREDATORY_CRIMSON_RITE_STORM'}, {}, {}, entity)
+    local weaponRite = HasAnyStatus({'CRIMSON_RITE_FROZEN','CRIMSON_RITE_FLAME','CRIMSON_RITE_STORM','CRIMSON_RITE_DAWN'}, {}, {}, GetAttackWeapon())
+
+    return (~isUnarmed & weaponRite) | (isUnarmed & unarmedRite)
 end
 
 function IsHybridForm()
@@ -17,10 +17,6 @@ function CastigationCheck(entity)
     local isHunter = HasAnyStatus({'BRAND_OF_CASTIGATION_OWNER','BRAND_OF_SUNDERING_OWNER'}, {}, {}, entity)
 
     return isHunter | hasHunterWithinRange
-end
-
-function AddExtraRiteDie()
-    return 'Cold'
 end
 
 function IsFrozenRite(entity)
