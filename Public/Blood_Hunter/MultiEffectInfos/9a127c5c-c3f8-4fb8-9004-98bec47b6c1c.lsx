@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="Name" type="LSString" value="CRIMSON_RITE_FROZEN_StatusEffect" />
-			<attribute id="UUID" type="guid" value="9a127c5c-c3f8-4fb8-0490-be987bc41c6c" />
+			<attribute id="UUID" type="guid" value="9a127c5c-c3f8-4fb8-9004-98bec47b6c1c" />
 			<children>
 				<node id="EffectInfo">
 					<attribute id="BindSourceTo" type="FixedString" value="SourceEntity" />

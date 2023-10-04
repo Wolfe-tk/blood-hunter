@@ -156,6 +156,9 @@
 	<content contentuid="h4f803066gdf41g4d1cg9c73gf0eb004594bf" version="1">Hybrid: Predatory Strikes</content>
 	<content contentuid="h92ec5783g3eaag41d7g942fgbb73467563ea" version="1">You can apply your Crimson Rite feature to your unarmed strikes, which you treat as one weapon. You can use &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; instead of &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; for the attack and damage rolls of your unarmed strikes, which deal [1]. Additionally, when you use the Attack action to make an unarmed strike, you can make one additional unarmed strike as a bonus action.</content>
 	
+	<content contentuid="h3ffd252bg3257g4909g9374g1bbc841a98b0" version="1">Slashing Predatory Strikes</content>
+	<content contentuid="h535891ceg446cg4c20g97a8ge34ba659d96e" version="1">Bludgeoning Predatory Strikes</content>
+
 	<content contentuid="hdd9d416fgebc8g44c3g8b02gea130c7cbd8d" version="1">Hybrid: Predatory Strikes Upgrade</content>
 	<content contentuid="h0dea4a86g95d1g4b0cg984bg9f68db220d3c" version="1">While in Hybrid form, your unarmed strikes now deal [1] slashing damage. Additionally, your predatory strikes are considered magical if you have a Predatory Crimson Rite active.</content>
 	
