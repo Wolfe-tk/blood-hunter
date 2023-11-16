@@ -5,6 +5,7 @@
         <node id="root">
             <children>
                 <node id="LevelMapSeries">
+                    <attribute id="Level0" type="LSString" value="1d4"/>
                     <attribute id="Level1" type="LSString" value="1d4"/>
                     <attribute id="Level10" type="LSString" value="1d6"/>
                     <attribute id="Level11" type="LSString" value="1d8"/>
@@ -22,6 +23,7 @@
                     <attribute id="UUID" type="guid" value="d7d70ddb-7a9c-4776-9861-1da38568bde8"/>
                 </node>
                 <node id="LevelMapSeries">
+                    <attribute id="Level0" type="LSString" value="1d4"/>
                     <attribute id="Level1" type="LSString" value="1d4"/>
                     <attribute id="Level10" type="LSString" value="1d6"/>
                     <attribute id="Level11" type="LSString" value="1d8"/>
@@ -38,6 +40,7 @@
                     <attribute id="UUID" type="guid" value="95ee5233-c8f6-40c4-96c7-0482b22ea0de"/>
                 </node>
                 <node id="LevelMapSeries">
+                    <attribute id="Level0" type="LSString" value="1d6"/>
                     <attribute id="Level1" type="LSString" value="1d6"/>
                     <attribute id="Level10" type="LSString" value="1d6"/>
                     <attribute id="Level11" type="LSString" value="1d8"/>

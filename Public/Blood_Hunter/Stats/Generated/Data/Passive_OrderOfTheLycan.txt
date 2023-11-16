@@ -94,7 +94,7 @@ data "DisplayName" "h4f803066gdf41g4d1cg9c73gf0eb004594bf;1"
 data "Description" "h92ec5783g3eaag41d7g942fgbb73467563ea;1"
 data "Icon" "PassiveFeature_MartialArts_DextrousUnarmedAttacks"
 data "Properties" "IsHidden"
-data "BoostContext" "OnStatusApplied;OnStatusRemoved;OnCreate"
+data "BoostContext" "OnCreate"
 data "BoostConditions" "IsHybridForm() and IsDexterityGreaterThanStrength()"
 data "Boosts" "MonkWeaponAttackOverride()"
 

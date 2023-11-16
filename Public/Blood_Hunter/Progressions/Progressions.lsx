@@ -162,7 +162,7 @@
                     <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(HybridTransformation,1,0)"/> 
-                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheLycan;HeightenedSenses;FeralMight;ResilientHide;PredatoryStrikes;PredatoryDextrousStrikes;HybridBloodlust;LycanRiteHelper"/>
+                    <attribute id="PassivesAdded" type="LSString" value="OrderOfTheLycan;HeightenedSenses;FeralMight;ResilientHide;PredatoryStrikes;HybridBloodlust;LycanRiteHelper"/>
                     <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
                     <attribute id="UUID" type="guid" value="ae8af1d1-17dc-41b6-ba03-742c8e297a90"/>
                 </node>
