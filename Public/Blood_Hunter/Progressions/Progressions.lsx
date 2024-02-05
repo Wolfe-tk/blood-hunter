@@ -4,18 +4,18 @@
     <region id="Progressions">
         <node id="root">
             <children>
-                <node id="Progression"> Mainclass Level 1
-                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(BloodMaledict,1,0);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields)"/> Adds resource, proficiency, etc.                    
-					<attribute id="Level" type="uint8" value="1"/> Class Level for this entry
-                    <attribute id="Name" type="LSString" value="BloodHunter"/> Name of the class, keep it consistent with class description
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(BloodMaledict,1,0);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields)"/>               
+					<attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="BloodHunter"/>
 					<attribute id="PassivesAdded" type="LSString" value="Hunters_Bane"/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(0e1468ec-0eec-4166-96ca-2f1e7f66772d,3);SelectSpells(a8f7f76a-7810-459d-bf78-3c5219699ec6,1,1,BloodCurses);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
-					<attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/> Same UUID as the one in ClassDescriptions.lsx this refers to the entire table
-                    <attribute id="UUID" type="guid" value="b85c5b64-347c-4ece-b45c-fe55a6fa2762"/> a Unique UUID specificaly for this entry within the table
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(0e1468ec-0eec-4166-96ca-2f1e7f66772d,3);SelectSpells(a8f7f76a-7810-459d-bf78-3c5219699ec6,1,1,BloodCurses);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
+					<attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/> 
+                    <attribute id="UUID" type="guid" value="b85c5b64-347c-4ece-b45c-fe55a6fa2762"/>
                 </node>
-				<node id="Progression"> Mainclass Level 1 MULTICLASS. (you will want a separate one as there are no AbilityBonus when multiclassing). Multiclassed character will use this progression entry instead of the previous one
+				<node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(BloodMaledict,1,0);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields)"/>                
                     <attribute id="IsMulticlass" type="bool" value="true"/>
@@ -134,29 +134,77 @@
                     <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
                     <attribute id="UUID" type="guid" value="0ffeeb4c-24e4-4683-9eaf-f4e652476595"/>
                 </node>
+				
+				13-20
+				
                 <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Level" type="uint8" value="13"/>
+                    <attribute id="Name" type="LSString" value="BloodHunter"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(BloodMaledict,1,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="6d193210-e69f-41b7-b8f2-1ae628c3246a"/>
+                </node>
+				<node id="Progression">
+                    <attribute id="Level" type="uint8" value="14"/>
+                    <attribute id="Name" type="LSString" value="BloodHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(7bcc4823-2a4d-4a57-b867-69d9180de0a9,1,CrimsonRites)"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="15c15f7c-9f0c-4df2-9742-cb84edae9186"/>
+                </node>
+				<node id="Progression">
+                    <attribute id="Level" type="uint8" value="15"/>
                     <attribute id="Name" type="LSString" value="BloodHunter"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
-                    <attribute id="UUID" type="guid" value="9d635041-75ad-41ef-ba34-78e124e8e84a"/>
+                    <attribute id="UUID" type="guid" value="e8c0bf14-646c-451f-abb2-3523e53f5c00"/>
                 </node>
-<!-- Order Of The lycan -->
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
-                    <attribute id="UUID" type="guid" value="ef833a56-b85c-4b02-956f-ac085cfebf3a"/>
+				<node id="Progression">
+                    <attribute id="Level" type="uint8" value="16"/>
+					<attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Name" type="LSString" value="BloodHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="39359c51-bda7-4f07-bdc3-9c2cbf2b7fbd"/>
                 </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="2"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
-                    <attribute id="UUID" type="guid" value="bddb4676-f179-45e5-a226-2aa226f24c75"/>
+				<node id="Progression">
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="BloodHunter"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(BloodMaledict,1,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="7a1a2a84-0a51-491e-b25c-0e7de9957522"/>
                 </node>
+				<node id="Progression">
+                    <attribute id="Level" type="uint8" value="18"/>
+                    <attribute id="Name" type="LSString" value="BloodHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="0653c9dd-cbf9-44cb-802e-380428fe2fcc"/>
+                </node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="19"/>
+                    <attribute id="Name" type="LSString" value="BloodHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="b0a6c661-774f-47c2-9400-de3185a6ad5b"/>
+                </node>
+				<node id="Progression">
+					<attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="20"/>
+                    <attribute id="Name" type="LSString" value="BloodHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
+                    <attribute id="UUID" type="guid" value="dab02b25-f736-44e2-a08b-1bd00f2dea5c"/>
+                </node>
+
+
+                Subclasses
+
+                OrderOfTheLycan
+
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
@@ -167,54 +215,12 @@
                     <attribute id="UUID" type="guid" value="ae8af1d1-17dc-41b6-ba03-742c8e297a90"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Level" type="uint8" value="4"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
-                    <attribute id="UUID" type="guid" value="bdafa142-56bd-47c8-b8cb-dd6659a274bc"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="5"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
-                    <attribute id="UUID" type="guid" value="2bb2344c-b77f-4d9c-8028-53d354518cb2"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
-                    <attribute id="UUID" type="guid" value="36b2f8e9-1f9e-42b5-91db-2a26344be028"/>
-                </node>
-                <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="StalkersProwess;ImprovedPredatoryStrikes"/>
                     <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
                     <attribute id="UUID" type="guid" value="97af1c8f-4e2d-4e89-abbe-a655da6f1f7a"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="8"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
-                    <attribute id="UUID" type="guid" value="d1a12ed4-76a4-4582-b276-402499c6aa55"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="9"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
-                    <attribute id="UUID" type="guid" value="81055d8f-cfd5-4416-b815-4a2cbc10ecad"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="10"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
-                    <attribute id="UUID" type="guid" value="70dcd558-e47a-44fc-8fd8-0fdf036c8328"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
@@ -226,35 +232,12 @@
                     <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
                     <attribute id="UUID" type="guid" value="2a510327-c010-44e5-b14e-ad3996c6c682"/>
                 </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="12"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
-                    <attribute id="UUID" type="guid" value="068f8e5a-ec39-4bc4-b2ee-0ea816f19598"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="13"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheLycan"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="7624267e-2d54-45f2-b098-21453f1d506d"/>
-                    <attribute id="UUID" type="guid" value="68ca3f7c-e3b0-4dd9-becb-7b99e114743c"/>
-                </node>
-<!-- Order Of The Ghostslayer -->
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
-                    <attribute id="UUID" type="guid" value="4ad23445-2da8-4f14-b1dd-9a71454737fe"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="2"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
-                    <attribute id="UUID" type="guid" value="24aa05e5-15f4-46a7-b369-4934b5c91f5e"/>
-                </node>
+
+
+                Subclasses
+
+                OrderOfTheGhostslayer
+
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
@@ -265,54 +248,12 @@
                     <attribute id="UUID" type="guid" value="7b8c81e1-b31a-46fd-babb-834e098ff474"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Level" type="uint8" value="4"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
-                    <attribute id="UUID" type="guid" value="5fcd0440-51d3-416b-8f73-9608184fe0f0"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="5"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
-                    <attribute id="UUID" type="guid" value="861f1acf-ad84-4f83-b8c6-3a3d3936795d"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
-                    <attribute id="UUID" type="guid" value="5ff4ea67-50f9-4550-a151-3299fe9427fc"/>
-                </node>
-                <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="AetherWalk"/>
                     <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
                     <attribute id="UUID" type="guid" value="9beb7905-4e74-48ce-951a-ddb8d0933552"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="8"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
-                    <attribute id="UUID" type="guid" value="ac7282bf-5de1-488c-9e3a-5a72209b9f4c"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="9"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
-                    <attribute id="UUID" type="guid" value="72d641fe-95da-45f1-bff3-278269c649bb"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="10"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
-                    <attribute id="UUID" type="guid" value="8d13254e-1f86-4cb0-acb8-c638a98bd1cf"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
@@ -323,20 +264,7 @@
                     <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
                     <attribute id="UUID" type="guid" value="9084f92c-06e6-4230-bfac-30775e5fa07c"/>
                 </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="12"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
-                    <attribute id="UUID" type="guid" value="060f6d92-aed0-4e6b-ae1b-f3179a862a5a"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="13"/>
-                    <attribute id="Name" type="LSString" value="OrderOfTheGhostslayer"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="55460398-77d4-4eea-8c63-96c20b73cfbb"/>
-                    <attribute id="UUID" type="guid" value="8d677e09-bfe4-4d5e-83c8-a66778bee565"/>
-                </node>
+				
             </children>
         </node>
     </region>
