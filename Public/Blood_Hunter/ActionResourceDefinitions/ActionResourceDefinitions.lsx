@@ -1,37 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-    <version major="4" minor="0" revision="4" build="600"/>
-    <region id="ActionResourceDefinitions">
-        <node id="root">
-            <children>
-                <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h4b1e24a3g951ag4568g8fd7g91d2885c3c95" version="1"/> A text tied to the .loca file
-                    <attribute id="DisplayName" type="TranslatedString" handle="h8c2bf8a8g0239g47e2gb5a0g7e9151c057cd" version="1"/> A text tied to the .loca file
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="BloodMaledict"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="a0c472f7-1bdc-4d86-8ce3-53e2eb9c31fb"/> UUID for the Resource, give it a new one
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h4b1e24a3g951ag4568g8fd7g91d2885c3c95" version="1" /> A text tied to the .loca file
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8c2bf8a8g0239g47e2gb5a0g7e9151c057cd" version="1" /> A text tied to the .loca file
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="Name" type="FixedString" value="BloodMaledict" />
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                    <attribute id="UUID" type="guid" value="a0c472f7-1bdc-4d86-8ce3-53e2eb9c31fb" /> UUID for the Resource, give it a new one
                 </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h43758cc1g5ca3g43f8g8664g54017f6dc26d" version="1"/> A text tied to the .loca file
-                    <attribute id="DisplayName" type="TranslatedString" handle="hb7cbed4dge887g49d0gb83dg5e41f49e3268" version="1"/> A text tied to the .loca file
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="HybridTransformation"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="9a79d391-754d-45dd-8f88-74035b7e1317"/> UUID for the Resource, give it a new one
+        <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h43758cc1g5ca3g43f8g8664g54017f6dc26d" version="1" /> A text tied to the .loca file
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb7cbed4dge887g49d0gb83dg5e41f49e3268" version="1" /> A text tied to the .loca file
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="Name" type="FixedString" value="HybridTransformation" />
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                    <attribute id="UUID" type="guid" value="9a79d391-754d-45dd-8f88-74035b7e1317" /> UUID for the Resource, give it a new one
                 </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h5eecf132g38c4g4b3fgaafdgfea4fd8643b6" version="1"/> A text tied to the .loca file
-                    <attribute id="DisplayName" type="TranslatedString" handle="hf0a2902cg9a00g4258gb7ccge6c31df510ee" version="1"/> A text tied to the .loca file
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="BrandOfCastigation"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
-                    <attribute id="UUID" type="guid" value="f7a5a469-6fdc-4a16-8f2c-2e076c39719e"/> UUID for the Resource, give it a new one
+        <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h5eecf132g38c4g4b3fgaafdgfea4fd8643b6" version="1" /> A text tied to the .loca file
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf0a2902cg9a00g4258gb7ccge6c31df510ee" version="1" /> A text tied to the .loca file
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="Name" type="FixedString" value="BrandOfCastigation" />
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false" />
+                    <attribute id="UUID" type="guid" value="f7a5a469-6fdc-4a16-8f2c-2e076c39719e" /> UUID for the Resource, give it a new one
                 </node>
-            </children>
-        </node>
-    </region>
+      </children>
+    </node>
+  </region>
 </save>

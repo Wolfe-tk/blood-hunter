@@ -1,18 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-    <version major="4" minor="0" revision="4" build="206"/>
-    <region id="PassiveLists">
-        <node id="root">
-            <children>
-                <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_TwoWeaponFighting"/>
-                    <attribute id="UUID" type="guid" value="49862341-f0f5-4c70-a6c1-4034ce9276eb"/>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="PassiveLists">
+    <node id="root">
+      <children>
+        <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_TwoWeaponFighting" />
+                    <attribute id="UUID" type="guid" value="49862341-f0f5-4c70-a6c1-4034ce9276eb" />
                 </node>
-                <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="RiteOfTheFrozen,RiteOfTheFlame,RiteOfTheStorm"/>
-                    <attribute id="UUID" type="guid" value="7bcc4823-2a4d-4a57-b867-69d9180de0a9"/>
+        <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="RiteOfTheFrozen,RiteOfTheFlame,RiteOfTheStorm," />
+                    <attribute id="UUID" type="guid" value="7bcc4823-2a4d-4a57-b867-69d9180de0a9" />
                 </node>
-            </children>
-        </node>
-    </region>
+        <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="RiteOfTheFrozen,RiteOfTheFlame,RiteOfTheStorm,RiteOfTheDead,RiteOfTheRoar,RiteOfTheOracle" />
+                    <attribute id="UUID" type="guid" value="e67760ed-8547-464d-9ab8-b6d334688ebc" />
+                </node>
+      </children>
+    </node>
+  </region>
 </save>

@@ -1,8 +1,8 @@
 function HasRiteDamage()
     local entity = entity or context.Source
 	local isUnarmed = IsMeleeUnarmedAttack()
-    local unarmedRite = HasAnyStatus({'PREDATORY_CRIMSON_RITE_FROZEN','PREDATORY_CRIMSON_RITE_FLAME','PREDATORY_CRIMSON_RITE_STORM'}, {}, {}, entity)
-    local weaponRite = HasAnyStatus({'CRIMSON_RITE_FROZEN','CRIMSON_RITE_FLAME','CRIMSON_RITE_STORM','CRIMSON_RITE_DAWN'}, {}, {}, GetAttackWeapon())
+    local unarmedRite = HasAnyStatus({'PREDATORY_CRIMSON_RITE_FROZEN','PREDATORY_CRIMSON_RITE_FLAME','PREDATORY_CRIMSON_RITE_STORM','PREDATORY_CRIMSON_RITE_DEAD','PREDATORY_CRIMSON_RITE_ROAR','PREDATORY_CRIMSON_RITE_ORACLE'}, {}, {}, entity)
+    local weaponRite = HasAnyStatus({'CRIMSON_RITE_FROZEN','CRIMSON_RITE_FLAME','CRIMSON_RITE_STORM','CRIMSON_RITE_DAWN','CRIMSON_RITE_DEAD','CRIMSON_RITE_ROAR','CRIMSON_RITE_ORACLE'}, {}, {}, GetAttackWeapon())
 
     return (~isUnarmed & weaponRite) | (isUnarmed & unarmedRite)
 end
@@ -37,6 +37,21 @@ end
 function IsDawnRite(entity)
     local entity = entity or context.Source
     return HasStatus('CRIMSON_RITE_DAWN',GetAttackWeapon(),entity)
+end
+
+function IsDeadRite(entity)
+    local entity = entity or context.Source
+    return HasStatus('CRIMSON_RITE_DEAD',GetAttackWeapon(),entity) | (IsMeleeUnarmedAttack() and HasStatus('PREDATORY_CRIMSON_RITE_DEAD',context.Source))
+end
+
+function IsRoarRite(entity)
+    local entity = entity or context.Source
+    return HasStatus('CRIMSON_RITE_ROAR',GetAttackWeapon(),entity) | (IsMeleeUnarmedAttack() and HasStatus('PREDATORY_CRIMSON_RITE_ROAR',context.Source))
+end
+
+function IsOracleRite(entity)
+    local entity = entity or context.Source
+    return HasStatus('CRIMSON_RITE_ORACLE',GetAttackWeapon(),entity) | (IsMeleeUnarmedAttack() and HasStatus('PREDATORY_CRIMSON_RITE_ORACLE',context.Source))
 end
 
 function IsUndead(target)

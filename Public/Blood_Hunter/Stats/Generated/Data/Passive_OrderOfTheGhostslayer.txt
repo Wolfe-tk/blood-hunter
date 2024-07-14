@@ -37,7 +37,7 @@ data "Properties" "Highlighted"
 data "Boosts" "UnlockInterrupt(Interrupt_BrandOfSundering)"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasStatus('BRAND_OF_SUNDERING') and HasRiteDamage()"
-data "StatsFunctors" "IF(IsFrozenRite()):DealDamage(LevelMapValue(HemocraftDie),Cold,Magical);IF(IsFlameRite()):DealDamage(LevelMapValue(HemocraftDie),Fire,Magical);IF(IsStormRite()):DealDamage(LevelMapValue(HemocraftDie),Lightning,Magical);IF(IsDawnRite()):DealDamage(LevelMapValue(HemocraftDie),Radiant,Magical)"
+data "StatsFunctors" "IF(IsFrozenRite()):DealDamage(LevelMapValue(HemocraftDie),Cold,Magical);IF(IsFlameRite()):DealDamage(LevelMapValue(HemocraftDie),Fire,Magical);IF(IsStormRite()):DealDamage(LevelMapValue(HemocraftDie),Lightning,Magical);IF(IsDawnRite()):DealDamage(LevelMapValue(HemocraftDie),Radiant,Magical)IF(IsDeadRite()):DealDamage(LevelMapValue(HemocraftDie),Necrotic,Magical)IF(IsRoarRite()):DealDamage(LevelMapValue(HemocraftDie),Thunder,Magical)IF(IsOracleRite()):DealDamage(LevelMapValue(HemocraftDie),Psychic,Magical)"
 
 new entry "BrandOfSunderingBrand"
 type "PassiveData"

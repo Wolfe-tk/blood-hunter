@@ -222,14 +222,14 @@
                     <attribute id="V2" type="float" value="0.5"/>
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="MapKey" type="FixedString" value="Icon_HardenedSoul"/>
                     <attribute id="U1" type="float" value="0.96875"/>
                     <attribute id="U2" type="float" value="1.0"/>
                     <attribute id="V1" type="float" value="0.0"/>
                     <attribute id="V2" type="float" value="0.5"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 
+                    <attribute id="MapKey" type="FixedString" value="Icon_SanguineMastery"/> 
                     <attribute id="U1" type="float" value="0.0"/> 
                     <attribute id="U2" type="float" value="0.03125"/> 
                     <attribute id="V1" type="float" value="0.5"/>
@@ -257,21 +257,21 @@
                     <attribute id="V2" type="float" value="1"/> 
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 
+                    <attribute id="MapKey" type="FixedString" value="Spell_RiteOfTheOracle"/> 
                     <attribute id="U1" type="float" value="0.125"/> 
                     <attribute id="U2" type="float" value="0.15625"/> 
                     <attribute id="V1" type="float" value="0.5"/>
                     <attribute id="V2" type="float" value="1"/> 
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="MapKey" type="FixedString" value="Spell_RiteOfTheDead"/>
                     <attribute id="U1" type="float" value="0.15625"/>
                     <attribute id="U2" type="float" value="0.1875"/>
                     <attribute id="V1" type="float" value="0.5"/>
                     <attribute id="V2" type="float" value="1"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 
+                    <attribute id="MapKey" type="FixedString" value="Spell_RiteOfTheRoar"/> 
                     <attribute id="U1" type="float" value="0.1875"/> 
                     <attribute id="U2" type="float" value="0.21875"/> 
                     <attribute id="V1" type="float" value="0.5"/>
@@ -292,21 +292,21 @@
                     <attribute id="V2" type="float" value="1"/> 
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 
+                    <attribute id="MapKey" type="FixedString" value="Spell_RiteOfTheOracle_Predatory"/> 
                     <attribute id="U1" type="float" value="0.28125"/> 
                     <attribute id="U2" type="float" value="0.3125"/> 
                     <attribute id="V1" type="float" value="0.5"/>
                     <attribute id="V2" type="float" value="1"/> 
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 
+                    <attribute id="MapKey" type="FixedString" value="Spell_RiteOfTheDead_Predatory"/> 
                     <attribute id="U1" type="float" value="0.3125"/> 
                     <attribute id="U2" type="float" value="0.34375"/> 
                     <attribute id="V1" type="float" value="0.5"/>
                     <attribute id="V2" type="float" value="1"/> 
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 
+                    <attribute id="MapKey" type="FixedString" value="Spell_RiteOfTheRoar_Predatory"/> 
                     <attribute id="U1" type="float" value="0.34375"/> 
                     <attribute id="U2" type="float" value="0.375"/> 
                     <attribute id="V1" type="float" value="0.5"/>

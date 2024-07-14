@@ -13,7 +13,7 @@ data "Description" "h19967cc1g1cc0g4474ga19cgff24f4be2ce8"
 data "Properties" "IsHidden"
 data "BoostContext" "OnStatusApplied;OnStatusRemoved;OnCreate"
 data "BoostConditions" "IsHybridForm()"
-data "Boosts" "UnlockSpell(Shout_Lycan_Dismiss_Rite_Container);IF(HasPassive('RiteOfTheFrozen', context.Source)):UnlockSpell(Shout_Lycan_CrimsonRite_Cold_Container);IF(HasPassive('RiteOfTheFlame', context.Source)):UnlockSpell(Shout_Lycan_CrimsonRite_Fire_Container);IF(HasPassive('RiteOfTheStorm', context.Source)):UnlockSpell(Shout_Lycan_CrimsonRite_Lightning_Container)"
+data "Boosts" "UnlockSpell(Shout_Lycan_Dismiss_Rite_Container);IF(HasPassive('RiteOfTheFrozen', context.Source)):UnlockSpell(Shout_Lycan_CrimsonRite_Cold_Container);IF(HasPassive('RiteOfTheFlame', context.Source)):UnlockSpell(Shout_Lycan_CrimsonRite_Fire_Container);IF(HasPassive('RiteOfTheStorm', context.Source)):UnlockSpell(Shout_Lycan_CrimsonRite_Lightning_Container);IF(HasPassive('RiteOfTheDead', context.Source)):UnlockSpell(Shout_Lycan_CrimsonRite_Dead_Container);IF(HasPassive('RiteOfTheRoar', context.Source)):UnlockSpell(Shout_Lycan_CrimsonRite_Roar_Container);IF(HasPassive('RiteOfTheOracle', context.Source)):UnlockSpell(Shout_Lycan_CrimsonRite_Oracle_Container)"
 
 new entry "HeightenedSenses"
 type "PassiveData"

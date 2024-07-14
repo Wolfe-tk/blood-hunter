@@ -2,5 +2,8 @@ new spellset "BloodHunter"
 add spell "Shout_Predatory_CrimsonRite_Cold"
 add spell "Shout_Predatory_CrimsonRite_Fire"
 add spell "Shout_Predatory_CrimsonRite_Lightning"
+add spell "Shout_Predatory_CrimsonRite_Dead"
+add spell "Shout_Predatory_CrimsonRite_Roar"
+add spell "Shout_Predatory_CrimsonRite_Oracle"
 add spell "Target_Predatory_Strikes"
 

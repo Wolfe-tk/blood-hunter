@@ -82,6 +82,9 @@
 	<content contentuid="he9e4ff52gfeabg4938ga456g02c5f50c4f28" version="1">Amplify by taking [1]. Alter your blood with supernatural enhancements. Ignore all enemy damage resistances as well as immunities.</content>
 	<content contentuid="h8b577985g5ddag4c91g8f3cgedf060926b54" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; &lt;LSTag Type="Passive" Tooltip="PassiveAmplify_Tooltip"&gt;Amplify&lt;/LSTag&gt;: Ignore &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; instead.</content>
 
+	<content contentuid="h16764a81g1153g4130g9564g162fe2946c5a" version="1">Blood Curse of the Exorcist</content>
+	<content contentuid="h7b047d9egaf79g4433ga99fg3d320b1c3560" version="1">As a bonus action, you choose on creature you can see within 30 feet of you. They can't be &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, and can't be possessed.</content>
+
 	<content contentuid="h8c2bf8a8g0239g47e2gb5a0g7e9151c057cd" version="1">Blood Maledict</content>
 	<content contentuid="h4b1e24a3g951ag4568g8fd7g91d2885c3c95" version="1">Blood Maledicts are expended to empower Blood Curses, improving proficiency in combat. You regain expended Blood Maledicts after a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 
@@ -97,10 +100,15 @@
 	<content contentuid="hd7c9fb6bg0125g48c3gbd0dgaa77a50dfb30" version="1">Rite of the Frozen</content>
     <content contentuid="h5b967f43g0ed4g4058g9dddg066c3fe927dd" version="1">Rite of the Flame</content>
     <content contentuid="h49421e9bga121g44b2ga0edge77d05b2e4bd" version="1">Rite of the Storm</content>
+	<content contentuid="h5ca1557ag68ecg4fd6g982cgfca8d172dac9" version="1">Rite of the Dead</content>
     <content contentuid="hb8b088c4g3024g48b1gadd1g4a4a7d055db3" version="1">Rite of the Dawn</content>
+	<content contentuid="h1eb5c858g87b8g4d50ga223gd2b81f406d50" version="1">Rite of the Roar</content>
+	<content contentuid="h01b240a5g1fb3g4d69g9992g7c328f6ff942" version="1">Rite of the Oracle</content>
+	<content contentuid="hf9d29822g74e5g4e18ga57bgb4bac2fc1612" version="1">As a bonus action, imbue a weapon to deal an additional [1]. On activating the rite, you take [2]. Rite damage is magical and lasts until you dismiss it, or complete a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="h20837292g21fdg4394gae6ag7e0a5989470c" version="1">As a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;, imbue a weapon to deal extra damage equal to one roll of your Hemocraft die for your chosen damage type. On activating the rite, you take one roll of your Hemocraft die in necrotic damage. Rite damage is magical and lasts until you complete a long rest.</content>
 	<content contentuid="h8f8fb86egdaccg4458g9e15g23fd69acac95" version="1">As a bonus action, imbue a weapon to deal an additional [1]. On activating the rite, you take [2]. Rite damage is magical and lasts until you dismiss it, or complete a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="hf75f67e1gbcf0g4a46ga625g3975c9ca6f9c" version="1">As a bonus action, imbue a weapon to deal an additional [1]. On activating the rite, you take [2]. Rite damage is magical and lasts until you dismiss it, or complete a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;. You gain resistance to necrotic damage. Your weapon radiates light in a 9m radius. Undead creatures hit with this rite take double rite dice damage.</content>
+	<content contentuid="h61b54665gf3eag4bf9gbb38ga8d47da135dd" version="1">As a bonus action, imbue a weapon to deal an additional [1]. On activating the rite, you take [2]. Rite damage is magical and lasts until you dismiss it, or complete a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
     
 	<content contentuid="hbc62363bgce8eg4108g81bbge5a9a4be1980" version="1">Dismiss Rite</content>
     <content contentuid="h53f60852gb4c5g4fb5gbad0g6c31535bbb00" version="1">Dismiss your currently active Crimson Rite</content>
@@ -114,7 +122,13 @@
 	
 	<content contentuid="h8dfc8537g85acg46a8g85fbg6b013a496f59" version="1">Grim Psychometry</content>
 	<content contentuid="h270d7925gcff6g45e6g973cg2e5a4256c0e1" version="1">You gain a supernatural talent for discerning the secrets surrounding mysterious relics or places touched by evil. Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; (History) &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;</content>
-	
+
+	<content contentuid="h6ba1439fg9084g4690gba09g055b9aa0a77d" version="1">Hardened Soul</content>
+	<content contentuid="hdd0c213dg1fd8g4ac2g80f6g97e11b717dcd" version="1">You have &lt;LSTag Tooltip"Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being Charmed and Frightened.</content>
+
+	<content contentuid="hf28e9a82gdb77g4377g8afcg3d4d8aa46485" version="1">Sanguine Mastery</content>
+	<content contentuid="h7dba2903g23aeg4970g8667g82b2ca9dd622" version="1">Whenever you score a critical hit with a weapon for which you have an active Crimson Rite, restore one &lt;LSTag Type="Passive" Tooltip="PassiveBloodMaledict_Tooltip"&gt;Blood Maledict&lt;/LSTag&gt; charge.</content>
+
 	<content contentuid="h675f93a0g35aeg4412g8cfagc50553345b08" version="1">Dark Augmentation</content>
 	<content contentuid="h9a582e92gac46g4ac4gaa72gc6af2933b0b5" version="1">Your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increases by 2 meters, and you have a bonus to &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;, &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, and &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; equal to your Hemocraft modifier (minimum of +1).</content>
 	
@@ -185,6 +199,9 @@
 	<content contentuid="h21a9c8dage074g4e59ga849g144752ab299c" version="1">Predatory Strikes: Rite of the Frozen</content>
 	<content contentuid="hd25930ecg13f8g49edgbc6ag9a0043f2389c" version="1">Predatory Strikes: Rite of the Flame</content>
 	<content contentuid="h9a2ce914g6c57g4e35g93a5g43a5979ef2c1" version="1">Predatory Strikes: Rite of the Storm</content>
+	<content contentuid="h3ee82055gdf87g4281g80feg43f54338abec" version="1">Predatory Strikes: Rite of the Dead</content>
+	<content contentuid="hdb040954g3338g4a0egb45bg3c18ad0ce719" version="1">Predatory Strikes: Rite of the Roar</content>
+	<content contentuid="h2f293622g6e20g4b3bg99d9gd34e25b5bd65" version="1">Predatory Strikes: Rite of the Oracle</content>
 	<content contentuid="hf69990cfg1955g40fcgb090g4af67a2ccd71" version="1">As a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;, imbue your unarmed strikes to deal extra damage equal to one roll of your Hemocraft die for your chosen damage type. On activating the rite, you take one roll of your Hemocraft die in necrotic damage. Rite damage is magical and lasts until you dismiss it, or complete a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>	
 	
 	<content contentuid="he0427ed4g3b5cg4422ga8aage9ac3514fd3c" version="1">Blood Curses</content>

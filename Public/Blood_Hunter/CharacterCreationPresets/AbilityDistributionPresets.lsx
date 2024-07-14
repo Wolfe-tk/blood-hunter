@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-    <version major="4" minor="0" revision="0" build="60"/>
-    <region id="AbilityDistributionPresets">
-        <node id="root">
-            <children>
-                <node id="AbilityDistributionPreset">
-                    <attribute id="ClassUUID" type="guid" value="84bfb42b-7200-4eda-aabc-d4273da53bc2"/> UUID for the class so the game knows which one it is looking at
-                    <attribute id="Charisma" type="int32" value="12"/>
-					<attribute id="Constitution" type="int32" value="13"/>
-                    <attribute id="Dexterity" type="int32" value="15"/>
-                    <attribute id="Intelligence" type="int32" value="14"/>
-                    <attribute id="Strength" type="int32" value="8"/>
-                    <attribute id="Wisdom" type="int32" value="10"/>
-					<attribute id="UUID" type="guid" value="62dc9a68-fe3b-4819-85ab-dc6de6dd6175"/> the UUID for this entry, not needed anywhere else, but you still need to make a new UUID for it
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="AbilityDistributionPresets">
+    <node id="root">
+      <children>
+        <node id="AbilityDistributionPreset">
+                    <attribute id="ClassUUID" type="guid" value="84bfb42b-7200-4eda-aabc-d4273da53bc2" /> UUID for the class so the game knows which one it is looking at
+                    <attribute id="Charisma" type="int32" value="12" />
+					<attribute id="Constitution" type="int32" value="13" />
+                    <attribute id="Dexterity" type="int32" value="15" />
+                    <attribute id="Intelligence" type="int32" value="14" />
+                    <attribute id="Strength" type="int32" value="8" />
+                    <attribute id="Wisdom" type="int32" value="10" />
+					<attribute id="UUID" type="guid" value="62dc9a68-fe3b-4819-85ab-dc6de6dd6175" /> the UUID for this entry, not needed anywhere else, but you still need to make a new UUID for it
                 </node>
-            </children>
-        </node>
-    </region>
+      </children>
+    </node>
+  </region>
 </save>
